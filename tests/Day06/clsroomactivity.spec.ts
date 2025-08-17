@@ -1,5 +1,4 @@
-import { TIMEOUT } from "dns";
-import { test } from "@playwright/test";
+import { test } from "playwright/test";
 
 test("class Room Activity", async ({ page }) => {
   await page.goto("http://leaftaps.com/opentaps/control/main");
